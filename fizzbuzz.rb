@@ -3,11 +3,12 @@
 def fizzbuzz(anum)
   if (anum % 3 == 0 && anum % 5 == 0)
     return "FizzBuzz"
-  end
-  if (anum % 3 == 0 && anum % 5 != 0)
+  
+  elsif (anum % 3 == 0 && anum % 5 != 0)
     return "Fizz"
-  end
-  if (anum % 3 != 0 && anum % 5 == 0)
+  
+  elsif (anum % 3 != 0 && anum % 5 == 0)
     return "Buzz"
-  end
+  else
+    return "nil"
 end

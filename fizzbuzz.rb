@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(anum)
   if (anum % 3 == 0 && anum % 5 == 0)
-    puts "FizzBuzz"
+    return "FizzBuzz"
   end
   if (anum % 3 == 0 && anum % 5 != 0)
-    puts "Fizz"
+    return "Fizz"
   end
   if (anum % 3 != 0 && anum % 5 == 0)
-    puts "Buzz"
+    return "Buzz"
   end
 end

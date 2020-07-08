@@ -10,5 +10,5 @@ def fizzbuzz(anum)
   elsif (anum % 3 != 0 && anum % 5 == 0)
     return "Buzz"
   else
-    return "nil"
+    return nil
 end
